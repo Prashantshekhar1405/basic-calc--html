@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body bgcolor="pink">
+    <h1 align ="center">Basic Calculator</h1>
+    <hr>
+    <form action="" oninput="result.value = parseInt(num1.value) + parseInt(num2.value)">
+        <fieldset>
+            <legend>ADD</legend>
+            <input type="number" id="num1" placeholder="enter first number"><br> + <br>
+        <input type="number" min="10" max="100" value="0" id="num2" placeholder="enter second number"><br> =
+        <output name="result" id="result" for="num1 num2"></output>
+        </fieldset>
+    </form><br>
+    <form action="" oninput="result.value = parseInt(num1.value) - parseInt(num2.value)">
+        <fieldset>
+            <legend>SUBSTRACT</legend>
+            <input type="number" id="num1" placeholder="enter first number"><br> - <br>
+        <input type="number" min="10" max="100" value="0" id="num2" placeholder="enter second number"> <br> =
+        <output name="result" id="result" for="num1 num2"></output>
+        </fieldset>
+    </form><br>
+    <form action="" oninput="result.value = parseInt(num1.value) * parseInt(num2.value)">
+        <fieldset>
+            <legend>MULTIPLY</legend>
+            <input type="number" id="num1" placeholder="enter first number"><br> * <br>
+        <input type="number" min="10" max="100" value="0" id="num2" placeholder="enter second number"> <br> =
+        <output name="result" id="result" for="num1 num2"></output>
+        </fieldset>
+    </form><br>
+    <form action="" oninput="result.value = parseInt(num1.value) / parseInt(num2.value)">
+        <fieldset>
+            <legend>DIVIDE</legend>
+            <input type="number" id="num1" placeholder="enter first number"><br> / <br>
+        <input type="number" min="10" max="100" value="0" id="num2" placeholder="enter second number"> <br> =
+        <output name="result" id="result" for="num1 num2"></output>
+        </fieldset>
+    </form>
+</body>
+</html>
